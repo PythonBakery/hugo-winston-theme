@@ -1,7 +1,8 @@
 :root {
+  --font-family-display: 'Codigra', sans-serif;
   --font-family-heading: 'Poppins', sans-serif;
   --font-family-paragraph: Helvetica, sans-serif;
-  --font-family-monospace: monospace;
+  --font-family-monospace: 'IBM Plex Mono', monospace;
   --base-color: #ffffff;
   --base-offset-color: #eaeaea;
   --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
@@ -52,3 +53,4 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+

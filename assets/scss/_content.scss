@@ -6,13 +6,21 @@ a {
   }
 }
 
+h1 {
+  font-family: var(--font-family-display);
+}
+
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+}
+
 h1,
 h2,
 h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: var(--heading-color);
-  font-family: var(--font-family-heading);
 }
 p {
   color: var(--text-color);
@@ -166,3 +174,4 @@ ul {
     }
   }
 }
+
